@@ -1,0 +1,202 @@
+body {
+  font-family: "Cabin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-bottom: 0px; /* overriding carousel.css */
+}
+
+/* navbar-travenup - Start */
+.navbar-travenup {
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-travenup .navbar-brand {
+  color: #ffffff;
+}
+.navbar-travenup .navbar-brand:hover,
+.navbar-travenup .navbar-brand:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+.navbar-travenup .navbar-text {
+  color: #ffffff;
+}
+.navbar-travenup .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-travenup .navbar-nav > li > a:hover,
+.navbar-travenup .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+.navbar-travenup .navbar-nav > .active > a,
+.navbar-travenup .navbar-nav > .active > a:hover,
+.navbar-travenup .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+.navbar-travenup .navbar-nav > .disabled > a,
+.navbar-travenup .navbar-nav > .disabled > a:hover,
+.navbar-travenup .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-travenup .navbar-toggle {
+  border-color: transparent;
+}
+.navbar-travenup .navbar-toggle:hover,
+.navbar-travenup .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+.navbar-travenup .navbar-toggle .icon-bar {
+  background-color: #888888;
+}
+.navbar-travenup .navbar-collapse,
+.navbar-travenup .navbar-form {
+  border-color: transparent;
+}
+.navbar-travenup .navbar-nav > .open > a,
+.navbar-travenup .navbar-nav > .open > a:hover,
+.navbar-travenup .navbar-nav > .open > a:focus {
+  background-color: transparent;
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .navbar-travenup .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-travenup .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-travenup .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  .navbar-travenup .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-travenup .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-travenup .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  .navbar-travenup .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-travenup .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-travenup .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+.navbar-travenup .navbar-link {
+  color: #ffffff;
+}
+.navbar-travenup .navbar-link:hover {
+  color: #ffffff;
+}
+.navbar-travenup .btn-link {
+  color: #ffffff;
+}
+.navbar-travenup .btn-link:hover,
+.navbar-travenup .btn-link:focus {
+  color: #ffffff;
+}
+.navbar-travenup .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-travenup .btn-link:hover,
+.navbar-travenup .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-travenup .btn-link:focus {
+  color: #cccccc;
+}
+
+.navbar-travenup .navbar-brand {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 200;
+	font-size: 24pt;
+}
+/* /navbar-travenup  */
+
+body.single .navbar-travenup {
+  background-color: rgba(0,0,0,0.5);
+}
+
+/* homeCarousel */
+#homeCarousel, #homeCarousel .carousel-inner > .item  {
+	height: 773px;
+}
+#homeCarousel h1 {
+	text-transform: uppercase;
+}
+#homeCarousel blockquote {
+	color: #fff;
+	position: relative;
+	width: 270px;
+	top: 100px;
+}
+#homeCarousel blockquote footer {
+	color: #fff;
+}
+
+#homeCarousel blockquote.blockquote-1 {
+	left: 300px;
+}
+#homeCarousel blockquote.blockquote-2 {
+	right: 50px;
+	float: right;
+}
+
+#homeCarousel  .carousel-caption {
+	bottom: 80px;
+}
+
+
+/* Footer */
+.footer-travenup {
+	background: #000;
+	color: #fff;
+	font-size: 10pt;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.footer-travenup a {
+	color: #fff;
+}
+
+.footer-travenup h2 {
+	font-size: 12pt !important;
+	color: #fff;
+}
+
+.footer-travenup .copyright {
+	font-size: 9pt;
+	color: #666;
+	margin-top: 100px;
+}
+
+/* single - banner */
+.banner {
+	height: 230px;
+	background-image: url(../images/baner-travenup-int.jpg);
+	background-position: center
+}
+
+.tu-contents {
+	margin-bottom: 50px;
+}
+.tu-contents h1 {
+	margin-top: 50px;
+	font-size: 16pt;
+	color: #08CD86;
+}
+
+ul.tu-side-menu li a{
+	background-color:#BBBCBB ;
+}
+ul.tu-side-menu li:nth-child(even) a {
+	background-color: #DBDBDB ;
+}
+
+ul.tu-side-menu li a {
+	display: block;
+	padding: 15px;
+	color: #000;
+}
+
+
+.ico-box-int {
+	float: right;
+}
+
