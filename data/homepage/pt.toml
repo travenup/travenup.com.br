@@ -1,0 +1,21 @@
+language = "pt"
+
+appintro1=  "Para reservar, faça o download do nosso aplicativo"
+appintro2= "O App TravenUp"
+howitworks = "Como funciona"
+
+[banners.first]
+quote = "Lorem ipsum 1"
+quotefooter = "Maria do Destino, São Paulo, SP"
+maintext = "Experiências inesquecíveis"
+subtext = "A world of opportunities."
+button = "Como Funciona"
+index = 1
+
+[banners.second]
+quote = "Lorem ipsum 2"
+quotefooter = "Loreta, São Paulo, SP"
+maintext = "Experiências inesquecíveis"
+subtext = "A world of opportunities."
+button = "Como Funciona"
+index = 2

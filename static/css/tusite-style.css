@@ -108,9 +108,6 @@ fieldset[disabled] .navbar-travenup .btn-link:focus {
 }
 /* /navbar-travenup  */
 
-body.single .navbar-travenup {
-  background-color: rgba(0,0,0,0.5);
-}
 
 /* homeCarousel */
 #homeCarousel, #homeCarousel .carousel-inner > .item  {
@@ -297,13 +294,10 @@ color: #fff;
 
 /* appsection */
 .homepage section.appsection {
-	background-image: url(../images/fd-meio-2.jpg);
-	padding-top: 100px;
-	padding-bottom: 100px;
-	background-position: center;
-}
-.homepage section.appsection   {
-color: #fff;
+	background: rgb(220,220,220);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #000;
 }
 .homepage .appsection * {
 	text-align: center;
@@ -312,8 +306,6 @@ color: #fff;
 	padding: 5px;
 }
 .homepage .appsection .feature .feature-content {
-	background: rgba(1,1,1,0.8);
-	min-height: 500px;
 	padding: 50px 30px;
 	font-size: 21px;
 }

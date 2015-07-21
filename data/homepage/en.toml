@@ -1,18 +1,22 @@
-[banners]
-language = "pt"
+language = "en"
+
+appintro1="To Book, download our free mobile app"
+appintro2="The TravenUp App"
+howitworks = "How It Works"
+
 
 [banners.first]
 quote = "Lorem ipsum 1"
 quotefooter = "Maria do Destino, São Paulo, SP"
-maintext = "Experiências inesquecíveis"
+maintext = "Book unique experiences"
 subtext = "A world of opportunities."
-button = "Como Funciona"
+button = "How It Works"
 index = 1
 
 [banners.second]
 quote = "Lorem ipsum 2"
 quotefooter = "Loreta, São Paulo, SP"
-maintext = "Experiências inesquecíveis"
+maintext = "Book unique experiences"
 subtext = "A world of opportunities."
-button = "Como Funciona"
+button = "How It Works"
 index = 2
