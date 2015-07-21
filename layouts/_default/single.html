@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TravenUp - {{ .Title }}</title>
+<meta name="description" content="{{ .Description }}">
+{{ partial "styles.html" . }}
+</head>
+
+<body class="single">
+
+<div class="banner">
+{{partial "nav.html" . }}
+</div>
+
+<div class="container">
+
+	<div class="row">
+		<div class="col-md-4">
+			<ul class="list-unstyled tu-side-menu">
+			{{ range .Site.Pages  }}
+				<li>
+				<a href="{{ .Permalink }}">{{ .Title }} <span class="ico-box-int">></span></a>
+				</li>
+			{{ end }}
+			</ul>
+		</div>
+		<div class="col-md-8 tu-contents">
+        <h1>{{ .Title }}</h1>
+		 {{ .Content }}
+		</div>
+	</div>
+</div>
+
+
+{{ partial "footer.html" . }}
+
+{{ partial "scripts.html" . }}
+</body>
+</html>
