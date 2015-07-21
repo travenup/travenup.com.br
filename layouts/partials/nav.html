@@ -1,4 +1,4 @@
-{{ $baseurl := .Site.BaseURL }}
+
 <nav class="navbar navbar-travenup  navbar-static-top" >
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -9,20 +9,41 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{ $baseurl }}">TravenUp</a>
+      <a class="navbar-brand" href="/">TravenUp</a>
     </div>
 
 	<div class="collapse navbar-collapse" id="travenup-navbar-collapse-1">
-	<a href="http://insider.travenup.com/newInsider/newExperience" class="btn btn-success navbar-btn navbar-right">CADASTRE SEU SERVIÇO AQUI</a>
-      <ul class="nav navbar-nav navbar-right">
+	{{ if eq .Params.language "pt" }}
+		<a href="http://insider.travenup.com/newInsider/newExperience" class="btn btn-success navbar-btn navbar-right">CADASTRE SEU SERVIÇO</a>
+		<ul class="nav navbar-nav navbar-right">
 			<li>
-		   		<a href="{{ $baseurl }}/index.html">Home </a>
+		   		<a href="/pt-br">Home</a>
 			</li>
 			<li>
-        		<a href="{{ $baseurl }}/about/">About </a>
+        		<a href="/pt/sobre">Sobre</a>
 			</li>
 			<li>
-                <a href="{{ $baseurl }}/help/tips/">Tips</a>
+                <a href="/pt/ajuda/recomendacoes">Recomendações</a>
+			</li>
+			<li>
+              	<a href="http://insider.travenup.com/signin">Cadastre-se</a>
+			</li>
+			<li>
+              	<a href="http://insider.travenup.com/signin">Log In</a>
+                <!--<a href="#">Help</a>-->
+			</li>
+		</ul>
+	  {{ else }}
+		<a href="http://insider.travenup.com/newInsider/newExperience" class="btn btn-success navbar-btn navbar-right">LIST YOUR SERVICE</a>
+		<ul class="nav navbar-nav navbar-right">
+			<li>
+		   		<a href="/">Home </a>
+			</li>
+			<li>
+        		<a href="/en/about">About </a>
+			</li>
+			<li>
+                <a href="/en/help/tips">Tips</a>
 			</li>
 			<li>
               	<a href="http://insider.travenup.com/signin">Sign Up</a>
@@ -31,9 +52,8 @@
               	<a href="http://insider.travenup.com/signin">Log In</a>
                 <!--<a href="#">Help</a>-->
 			</li>
-			<li>
-			</li>
-      </ul>
+		</ul>	  
+	  {{ end }}
 	</div><!-- /.navbar-collapse -->
 
 

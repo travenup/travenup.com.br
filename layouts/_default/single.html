@@ -1,3 +1,4 @@
+{{ $page_language := .Params.language }}
 <!doctype html>
 <html>
 <head>
@@ -14,22 +15,30 @@
 </div>
 
 <div class="container">
-
+	{{ if ne .Params.sidemenu false }}
 	<div class="row">
 		<div class="col-md-4">
 			<ul class="list-unstyled tu-side-menu">
 			{{ range .Site.Pages  }}
-				<li>
-				<a href="{{ .Permalink }}">{{ .Title }} <span class="ico-box-int">></span></a>
-				</li>
+			    {{ if eq .Params.language $page_language }}
+					{{ if ne .Type "homepage" }}
+						<li>
+							<a href="{{ .RelPermalink }}">{{ .Title }}<span class="ico-box-int">></span></a>
+						</li>
+					{{ end }}
+				{{ end }}
 			{{ end }}
 			</ul>
 		</div>
 		<div class="col-md-8 tu-contents">
-        <h1>{{ .Title }}</h1>
 		 {{ .Content }}
 		</div>
 	</div>
+	{{ else }}
+		<div class="tu-contents">
+{{ .Content }}
+		</div>
+	{{ end }}
 </div>
 
 

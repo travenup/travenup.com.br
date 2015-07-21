@@ -1,3 +1,4 @@
+{{ $page_language := .Params.language }} 
 <!doctype html>
 <html>
 <head>
@@ -16,8 +17,6 @@
       </div>
     </div>
 
-
-
     <!-- Carousel
     ================================================== -->
     <div id="homeCarousel" class="carousel slide" data-ride="carousel">
@@ -28,7 +27,7 @@
       </ol>
       <div class="carousel-inner" role="listbox">
 		{{ range $.Site.Data.banner }}
-			{{ if eq .banners.language "en" }}
+			{{ if eq .banners.language $page_language }}
 				{{ $banner := .banners.first}}
 				<div class="item active" style="background-image: url(/images/banner-{{ $banner.index }}.jpg); background-repeat: no-repeat; background-position: center; background-size: auto 100%;">
 					<div class="container">
