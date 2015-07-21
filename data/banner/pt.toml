@@ -6,7 +6,7 @@ quote = "Lorem ipsum 1"
 quotefooter = "Maria do Destino, São Paulo, SP"
 maintext = "Experiências inesquecíveis"
 subtext = "A world of opportunities."
-button = "Como funciona"
+button = "Como Funciona"
 index = 1
 
 [banners.second]
@@ -14,5 +14,5 @@ quote = "Lorem ipsum 2"
 quotefooter = "Loreta, São Paulo, SP"
 maintext = "Experiências inesquecíveis"
 subtext = "A world of opportunities."
-button = "Como funciona"
+button = "Como Funciona"
 index = 2

@@ -10,7 +10,7 @@
 {{ partial "styles.html" . }}
 </head>
 
-<body>
+<body class="homepage">
 	<div class="navbar-wrapper">
       <div class="container">
 		{{ partial "nav.html" . }}       
@@ -38,7 +38,7 @@
 						<div class="carousel-caption">
 						  <h1>{{ $banner.maintext }}</h1>
 						  <p>{{ $banner.subtext }}</p>
-						  <p><a class="btn btn-lg btn-primary" href="#" role="button">{{ $banner.button }}</a></p>
+						  <p><a class="btn btn-lg btn-carousel" href="#" role="button">{{ $banner.button }}</a></p>
 						</div>
 					</div>
 				</div>
@@ -52,7 +52,7 @@
 						<div class="carousel-caption">
 						  <h1>{{ $banner.maintext }}</h1>
 						  <p>{{ $banner.subtext }}</p>
-						  <p><a class="btn btn-lg btn-primary" href="#" role="button">{{ $banner.button }}</a></p>
+						  <p><a class="btn btn-lg btn-carousel" href="#" role="button">{{ $banner.button }}</a></p>
 						</div>
 					</div>
 				</div>

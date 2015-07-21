@@ -9,7 +9,7 @@
 {{ partial "styles.html" . }}
 </head>
 
-<body>
+<body class="homepage">
 	<div class="navbar-wrapper">
       <div class="container">
 		{{ partial "nav.html" . }}       
@@ -39,7 +39,7 @@
 						<div class="carousel-caption">
 						  <h1>{{ $banner.maintext }}</h1>
 						  <p>{{ $banner.subtext }}</p>
-						  <p><a class="btn btn-lg btn-primary" href="#" role="button">{{ $banner.button }}</a></p>
+						  <p><a class="btn btn-lg btn-carousel" href="#" role="button">{{ $banner.button }}</a></p>
 						</div>
 					</div>
 				</div>
@@ -53,13 +53,12 @@
 						<div class="carousel-caption">
 						  <h1>{{ $banner.maintext }}</h1>
 						  <p>{{ $banner.subtext }}</p>
-						  <p><a class="btn btn-lg btn-primary" href="#" role="button">{{ $banner.button }}</a></p>
+						  <p><a class="btn btn-lg btn-carousel" href="#" role="button">{{ $banner.button }}</a></p>
 						</div>
 					</div>
 				</div>
 			{{ end }}
 		{{ end }}
-
       </div>
       <a class="left carousel-control" href="#homeCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -71,6 +70,36 @@
       </a>
     </div><!-- /.carousel -->
 
+	<section class="text-center preappsection">
+		<h2>To Book, download our free mobile app</h2>
+		<h1 >The TravenUp app</h1>
+	</section>
+	
+	<section class="appsection">
+		<div class="container"> 
+		<h1>How it works?</h1>
+		<div class="row">
+			<div class="col-md-4 feature">
+				<div class="feature-content" >
+					<h2>Explore</h2>
+					<p>Find, save and share the perfect place to stay, all from your phone</p>
+				</div>
+			</div>
+			<div class="col-md-4 feature">
+				<div class="feature-content" >
+					<h2>Book</h2>
+					<p>Book a listing using the a secure payment platform </p>
+				</div>
+			</div>
+			<div class="col-md-4 feature">
+				<div class="feature-content" >
+					<h2>Go</h2>
+					<p>Check your itinerary communicate with your host, and locate your listing on the go.</p>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
 	
 {{ partial "footer.html" . }}
 {{ partial "scripts.html" . }}
