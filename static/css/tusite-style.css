@@ -122,6 +122,8 @@ fieldset[disabled] .navbar-travenup .btn-link:focus {
 	color: #fff;
 	position: relative;
 	top: 50px;
+	font-size: 13px;
+	max-width: 50%;
 }
 #homeCarousel blockquote footer {
 	color: #fff;
@@ -132,10 +134,10 @@ fieldset[disabled] .navbar-travenup .btn-link:focus {
 
 @media (min-width: 768px) {
 	#homeCarousel, #homeCarousel .carousel-inner > .item  {
-		height: 650px;
+		height: 550px;
 	}
 	#homeCarousel  .carousel-caption {
-		bottom: 100px;
+		bottom: 50px;
 	}
 	#homeCarousel blockquote {
 		top: 100px;
@@ -149,7 +151,7 @@ fieldset[disabled] .navbar-travenup .btn-link:focus {
 		float: right;
 	}
 }
-@media (min-width: 1680px) {
+@media (min-width: 1423px) {
 	#homeCarousel, #homeCarousel .carousel-inner > .item  {
 		background-size: 100% auto;
 	}
@@ -160,7 +162,7 @@ fieldset[disabled] .navbar-travenup .btn-link:focus {
 
 .btn-carousel {
   color: #fff;
-  background-color: rgba(200,200,200,0.5);
+  background-color: rgba(200,200,200,0.7);
   border-color: transparent;
   padding-left: 64px;
   padding-right: 64px;
@@ -168,12 +170,12 @@ fieldset[disabled] .navbar-travenup .btn-link:focus {
 .btn-carousel:focus,
 .btn-carousel.focus {
   color: #fff;
-  background-color: rgba(200,200,200,0.7);
+  background-color: rgba(255,255,255,0.8);
   border-color:transparent;
 }
 .btn-carousel:hover {
   color: #fff;
-  background-color: rgba(200,200,200,0.7);
+  background-color: rgba(255,255,255,0.8);
   border-color:transparent;
 }
 .btn-carousel:active,
