@@ -2,20 +2,42 @@ language = "pt"
 
 appintro1=  "Para reservar, faça o download do nosso aplicativo"
 appintro2= "O App TravenUp"
-howitworks = "Como funciona"
+
 
 [banners.first]
-quote = "Lorem ipsum 1"
-quotefooter = "Maria do Destino, São Paulo, SP"
-maintext = "Experiências inesquecíveis"
-subtext = "A world of opportunities."
-button = "Como Funciona"
 index = 1
+quote = "Quer conhecer os melhores museus de São Paulo? Encontre-me na TravenUp!"
+quotefooter = "Maria, São Paulo"
+image = "/images/banner-1.jpg"
+maintext = "Experiências inesquecíveis"
+subtext = "Um mundo de oportunidades"
+button = "Como Funciona"
 
 [banners.second]
-quote = "Lorem ipsum 2"
-quotefooter = "Loreta, São Paulo, SP"
-maintext = "Experiências inesquecíveis"
-subtext = "A world of opportunities."
-button = "Como Funciona"
 index = 2
+quote = "Interessado em uma experiência gastronômica tipicamente brasileira? Encontre-me na TravenUp!"
+quotefooter = "Loreta, São Paulo"
+image = "/images/banner-2.jpg"
+maintext = "Experiências inesquecíveis"
+subtext = "Um mundo de oportunidades"
+button = "Como Funciona"
+
+[howitworks]
+
+title = "Como Funciona?"
+
+[howitworks.explore]
+title = "Busque"
+text = "Find, save and share the perfect place to stay, all from your phone"
+icon = "/images/Search-192.png"
+
+[howitworks.book]
+title = "Reserve"
+text = "Find, save and share the perfect place to stay, all from your phone"
+icon = "/images/Card-192.png"
+
+[howitworks.go]
+title = "Aproveite"
+text = "Find, save and share the perfect place to stay, all from your phone"
+icon = "/images/Tourist-192.png"
+

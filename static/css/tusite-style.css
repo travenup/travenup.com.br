@@ -111,7 +111,9 @@ fieldset[disabled] .navbar-travenup .btn-link:focus {
 
 /* homeCarousel */
 #homeCarousel, #homeCarousel .carousel-inner > .item  {
-	height: 773px;
+	height: 430px;
+	background-position: center top; 
+	background-size: auto 100%;
 }
 #homeCarousel h1 {
 	text-transform: uppercase;
@@ -119,24 +121,40 @@ fieldset[disabled] .navbar-travenup .btn-link:focus {
 #homeCarousel blockquote {
 	color: #fff;
 	position: relative;
-	width: 270px;
-	top: 100px;
+	top: 50px;
 }
 #homeCarousel blockquote footer {
 	color: #fff;
 }
-
-#homeCarousel blockquote.blockquote-1 {
-	left: 300px;
-}
-#homeCarousel blockquote.blockquote-2 {
-	right: 50px;
-	float: right;
-}
-
 #homeCarousel  .carousel-caption {
-	bottom: 80px;
+	bottom: 20px;
 }
+
+@media (min-width: 768px) {
+	#homeCarousel, #homeCarousel .carousel-inner > .item  {
+		height: 650px;
+	}
+	#homeCarousel  .carousel-caption {
+		bottom: 100px;
+	}
+	#homeCarousel blockquote {
+		top: 100px;
+		width: 270px;
+	}
+	#homeCarousel blockquote.blockquote-1 {
+		left: 50px;
+	}
+	#homeCarousel blockquote.blockquote-2 {
+		right: 50px;
+		float: right;
+	}
+}
+@media (min-width: 1680px) {
+	#homeCarousel, #homeCarousel .carousel-inner > .item  {
+		background-size: 100% auto;
+	}
+}
+
 
 /* */
 
@@ -278,7 +296,7 @@ color: #000;
 font-size: 40px;
 }
 .homepage section.preappsection  h2 {
-color: #fff;
+  color: #fff;
   text-align: center;
   background-color: #00A3D9;
   position: absolute;
@@ -287,9 +305,15 @@ color: #fff;
   left: 50%;
   right: 50%;
   padding: 10px 34px;
-  width: 400px;
-  margin: 0px 0px 0px -200px ;
+  width: 300px;
+  margin: 0px 0px 0px -150px ;
   font-size: 18px;
+}
+@media (min-width: 768px) {
+	.homepage section.preappsection  h2 {
+	  width: 480px;
+	  margin: 0px 0px 0px -240px ;
+	}
 }
 
 /* appsection */

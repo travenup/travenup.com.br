@@ -1,22 +1,19 @@
-{{ $page_language := $.Scratch.Get "language"  }}
-<!doctype html>
-<html>
+{{ $page_language := $.Scratch.Get "language"  }}<!doctype html><html>
 <head>
-<meta charset="UTF-8">
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>TravenUp</title>
 <meta name="description" content="">
 <link rel="shortcut icon" href="/images/favicon.ico" />
 {{ partial "styles.html" . }}
 </head>
-
 <body class="homepage">
 	<div class="navbar-wrapper">
       <div class="container">
 		{{ partial "nav.html" . }}       
       </div>
     </div>
-
 
 {{ range $.Site.Data.homepage }}
 	{{ if eq .language $page_language }}
@@ -31,7 +28,7 @@
       </ol>
       <div class="carousel-inner" role="listbox">
 				{{ $banner := .banners.first}}
-				<div class="item active" style="background-image: url(/images/banner-{{ $banner.index }}.jpg); background-repeat: no-repeat; background-position: center; background-size: auto 100%;">
+				<div class="item active" style="background-image: url({{ $banner.image }})">
 					<div class="container">
 						<blockquote class="blockquote-{{ $banner.index }}">
 							<p>{{ $banner.quote }}</p>
@@ -45,7 +42,7 @@
 					</div>
 				</div>
 				{{ $banner := .banners.second}}
-				<div class="item" style="background-image: url(/images/banner-{{ $banner.index }}.jpg); background-position: center; background-size: auto 100%; ">
+				<div class="item" style="background-image: url({{ $banner.image }}); ">
 					<div class="container">
 						<blockquote class="blockquote-{{ $banner.index }}">
 							<p>{{ $banner.quote }}</p>
@@ -76,32 +73,37 @@
 	
 	<section class="appsection">
 		<div class="container"> 
-		<h1>{{ .howitworks }}</h1>
+		<h1>{{ .howitworks.title }}</h1>
 		<div class="row">
+			{{ $howitworks := .howitworks.explore}}
 			<div class="col-md-4 feature">
 				<div class="feature-content" >
 					<!-- icon by Icons8 -->
-					<img src="/images/Search-192.png" title="Search" width="192">					
-					<h2>Explore</h2>
-					<p>Find, save and share the perfect place to stay, all from your phone</p>
+					<img src="{{ $howitworks.icon }}" title="{{ $howitworks.title }}" width="192" height="192">					
+					<h2>{{ $howitworks.title }}</h2>
+					<p>{{ $howitworks.text }}</p>
 				</div>
 			</div>
+			{{ $howitworks := .howitworks.book}}
 			<div class="col-md-4 feature">
 				<div class="feature-content" >
 					<!-- icon by Icons8 -->
-					<img src="/images/Card-192.png" title="Card" width="192">				
-					<h2>Book</h2>
-					<p>Book a listing using the a secure payment platform </p>
+					<img src="{{ $howitworks.icon }}" title="{{ $howitworks.title }}" width="192" height="192">					
+					<h2>{{ $howitworks.title }}</h2>
+					<p>{{ $howitworks.text }}</p>
 				</div>
 			</div>
+
+			{{ $howitworks := .howitworks.go}}
 			<div class="col-md-4 feature">
 				<div class="feature-content" >
 					<!-- icon by Icons8 -->
-					<img src="/images/Tourist-192.png" title="Tourist" width="192">				
-					<h2>Go</h2>
-					<p>Check your itinerary communicate with your host, and locate your listing on the go.</p>
+					<img src="{{ $howitworks.icon }}" title="{{ $howitworks.title }}" width="192" height="192">					
+					<h2>{{ $howitworks.title }}</h2>
+					<p>{{ $howitworks.text }}</p>
 				</div>
 			</div>
+			
 		</div>
 		</div>
 	</section>

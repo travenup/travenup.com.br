@@ -2,21 +2,41 @@ language = "en"
 
 appintro1="To Book, download our free mobile app"
 appintro2="The TravenUp App"
-howitworks = "How It Works"
 
 
 [banners.first]
-quote = "Lorem ipsum 1"
-quotefooter = "Maria do Destino, São Paulo, SP"
+index = 1
+quote = "Want to see the best museums in Sao Paulo? Look for me on TravenUp"
+quotefooter = "Maria, Sao Paulo"
 maintext = "Book unique experiences"
 subtext = "A world of opportunities."
 button = "How It Works"
-index = 1
+image = "/images/banner-1.jpg"
 
 [banners.second]
-quote = "Lorem ipsum 2"
-quotefooter = "Loreta, São Paulo, SP"
+index = 2
+quote = "I can show you the best food in Sao Paulo! Find me on TravenUp!"
+quotefooter = "Loreta, São Paulo"
 maintext = "Book unique experiences"
 subtext = "A world of opportunities."
 button = "How It Works"
-index = 2
+image = "/images/banner-2.jpg"
+
+[howitworks]
+
+title = "How it Works?"
+
+[howitworks.explore]
+title = "Explore"
+text = "Find, save and share the perfect place to stay, all from your phone"
+icon = "/images/Search-192.png"
+
+[howitworks.book]
+title = "Book"
+text = "Find, save and share the perfect place to stay, all from your phone"
+icon = "/images/Card-192.png"
+
+[howitworks.go]
+title = "Go"
+text = "Find, save and share the perfect place to stay, all from your phone"
+icon = "/images/Tourist-192.png"
