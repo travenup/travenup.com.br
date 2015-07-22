@@ -37,7 +37,7 @@
 						<div class="carousel-caption">
 						  <h1>{{ $banner.maintext }}</h1>
 						  <p>{{ $banner.subtext }}</p>
-						  <p><a class="btn btn-lg btn-carousel" href="#" role="button">{{ $banner.button }}</a></p>
+						  <p><a class="btn btn-lg btn-carousel tu-howitworksbutton" href="#tu-howitworkssection" role="button">{{ $banner.button }}</a></p>
 						</div>
 					</div>
 				</div>
@@ -51,7 +51,7 @@
 						<div class="carousel-caption">
 						  <h1>{{ $banner.maintext }}</h1>
 						  <p>{{ $banner.subtext }}</p>
-						  <p><a class="btn btn-lg btn-carousel" href="#" role="button">{{ $banner.button }}</a></p>
+						  <p><a class="btn btn-lg btn-carousel tu-howitworksbutton" href="#tu-howitworkssection" role="button">{{ $banner.button }}</a></p>
 						</div>
 					</div>
 				</div>
@@ -71,7 +71,7 @@
 		<h1>{{ .appintro2 }}</h1>
 	</section>
 	
-	<section class="appsection">
+	<section class="appsection" id="tu-howitworkssection">
 		<div class="container"> 
 		<h1>{{ .howitworks.title }}</h1>
 		<div class="row">
@@ -112,6 +112,14 @@
 	
 {{ partial "footer.html" . }}
 {{ partial "scripts.html" . }}
+<script type="text/javascript">
+	$(function() {
+		$(document).on('click', '.tu-howitworksbutton', function (evt) {
+			evt.preventDefault();
+			$("html, body").animate({ scrollTop: $('#tu-howitworkssection').offset().top }, 500);
+		});
+	});
+</script>
 
 </body>
 

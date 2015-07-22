@@ -235,6 +235,7 @@ fieldset[disabled] .btn-carousel.active {
 	font-size: 10pt;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	background-image: url(/images/footer-bg.png);
 }
 
 .footer-travenup a {
