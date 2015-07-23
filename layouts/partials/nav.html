@@ -9,7 +9,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">TravenUp</a>
+		{{ if eq .Params.language "pt" }}
+		<a class="navbar-brand" href="/pt-br">TravenUp</a>
+		{{ else }}
+		<a class="navbar-brand" href="/">TravenUp</a>
+		{{ end }}
     </div>
 
 	<div class="collapse navbar-collapse" id="travenup-navbar-collapse-1">
