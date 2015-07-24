@@ -6,7 +6,7 @@ sidemenu = true
 +++
 
 # Tips
-# A Simple Guide toa successful service!
+# A Simple Guide to a successful service!
 
   * **For Travelers**
 
@@ -21,7 +21,7 @@ Hi **Traveler,**
   * **For Insiders**
 
 Hi **Local Insider,**
-* Be transparent, Tell exactly what is your listing. 
+* Be transparent, tell exactly what is your listing. 
 * Be clear about price, what is included or not.
 * Set hour, date and exact place. Welcome with a big smile!
 * Respond promptly exchanged menssages about booking requests.
