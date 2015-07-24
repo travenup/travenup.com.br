@@ -11,16 +11,16 @@ sidemenu = true
 
   * **Para Viajantes**
 
-Olá **Viajante**
-
+Olá **Viajante,**
 * Comunique-se com o seu Insider, confirme as datas de reserva alguns dias antes da experiência, serviço ou atividade, e se ocorrer algo inesperado comunique a TravenUp e o Insider local responsável.
 * Seja respeitoso com o seu Insider local, uma experiência começa em conhecer pessoas novas. 
 * Convidados inesperados: Sua reserva está confirmada para um determinado número de pessoas, confirme antecipadamente com o seu insider caso leve pessoas adicionais.
 * Deixe seu feedback para seu Insider. Eles apreciam muito isto, e nós também!
 
 
-  * **Para Insiders**
 
+  * **Para Insiders**
+Olá **Insider Local,**
 * Seja transparente. Informe com exatidão o que representa o seu anúncio. 
 * Seja claro sobre preço, o que faz parte ou não da sua experiência, atividade ou serviço.
 * Combine data, horário e local com exatidão. De boas vindas com um grande sorriso!
@@ -29,3 +29,4 @@ Olá **Viajante**
 * Se algo der errado inadvertidamente, esteja acessível para ajudar a remediar a situação. Seja um herói para seu cliente viajante!
 
 
+Boa experiência para todos!
