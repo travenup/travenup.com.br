@@ -1,0 +1,53 @@
+.single  .navbar-travenup {
+top: 10px;
+}
+/* single - banner */
+.banner {
+	height: 230px;
+	background-image: url(../images/baner-travenup-int.jpg);
+	background-position: center
+}
+
+/* Singla - contents */
+.single .tu-contents {
+	margin-bottom: 50px;
+}
+
+.single .tu-contents h1 {
+	margin-top: 40px;
+	font-size: 20pt;
+	color: #08CD86;
+	margin-bottom: 40px;
+}
+.single .tu-contents h2, .tu-contents h3, .tu-contents  h4 {
+	margin-top: 30px;
+	font-size: 14pt;
+	color: #000;
+}
+
+.single .tu-contents h3, .tu-contents  h4 {
+	margin-top: 30px;
+	font-size: 12pt;
+	color: #333;
+}
+
+/* Side menu */
+
+.single ul.tu-side-menu li a{
+	background-color:#BBBCBB ;
+}
+.single ul.tu-side-menu li:nth-child(even) a {
+	background-color: #DBDBDB ;
+}
+
+.single ul.tu-side-menu li a {
+	display: block;
+	padding: 15px;
+	color: #000;
+}
+
+
+.single ul.tu-side-menu .ico-box-int {
+	float: right;
+}
+
