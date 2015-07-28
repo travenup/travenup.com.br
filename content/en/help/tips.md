@@ -6,11 +6,12 @@ sidemenu = true
 +++
 
 # Tips
-# A Simple Guide to a successful service!
+## A Simple Guide to a successful service!
 
-  * **For Travelers**
+### For Travelers
 
 Hi **Traveler,**
+
 * Before start your travel, communicate with the Insider to confirm the booked time and dates, and if something unexpected happens, please communicate TravenUp and the Insider.
 * Be respectful to your local insider, an experience begins in meeting new people. 
 * Unexpected Gests: Your booking is confirmed for a certain number of people, confirm in advance with the local Insider if you can bring additional people.
@@ -18,9 +19,10 @@ Hi **Traveler,**
 
 
 
-  * **For Insiders**
+### For Insiders
 
 Hi **Local Insider,**
+
 * Be transparent, tell exactly what is your listing. 
 * Be clear about price, what is included or not.
 * Set hour, date and exact place. Welcome with a big smile!
