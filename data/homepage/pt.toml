@@ -22,22 +22,53 @@ maintext = "Experiências inesquecíveis"
 subtext = "Um mundo de oportunidades"
 button = "Como Funciona"
 
+
 [howitworks]
 
-title = "Como Funciona?"
+title = "Como funciona?"
+intro = "Quer aproveitar as melhores experiências que a cidade tem a oferecer? Encontre experts que vão lhe mostrar os lugares especiais, as comidas mais saborosas e as melhores pechinchas! Se divirta do jeito que os locais fazem!"
+
+[howitworks.download]
+title = "Download"
+text = "Faça o download do aplicativo gratuitamente"
+icon = "/images/Smartphone-192.png"
 
 [howitworks.explore]
-title = "Busque"
-text = "Find, save and share the perfect place to stay, all from your phone"
+title = "Explore"
+text = "Encontre a perfeita experiência de viajem"
 icon = "/images/Search-192.png"
 
 [howitworks.book]
 title = "Reserve"
-text = "Find, save and share the perfect place to stay, all from your phone"
+text = "Conecte-se com os experts locais e reserve, por meio de uma plataforma segura."
 icon = "/images/Card-192.png"
 
 [howitworks.go]
-title = "Aproveite"
-text = "Find, save and share the perfect place to stay, all from your phone"
+title = "Vá!"
+text = "Experiencie o melhor do lugar! Aproveite e faça novos amigos!"
 icon = "/images/Tourist-192.png"
 
+[howitworks.insider]
+
+title = "Você é um insider?"
+intro = "Compartilhe seu talento, conhecimento, habilidades, uma história sobre o destino, sua criatividade, sua paixão. Insiders são empreendedores que criam Experiências, Atividades ou Serviços para oferecer aos Viajantes."
+
+[howitworks.insider.list]
+title = "Anuncie gratuitamente"
+text = "Sem taxa de serviço até a confirmação de uma reserva"
+icon = "/images/Free-192.png"
+
+[howitworks.insider.creativity]
+title = "Solte sua criatividade"
+text = "Estabeleça o Preço, o que está ou não incluso, sua disponibilidade para os Viajantes"
+icon = "/images/Idea-192.png"
+
+[howitworks.insider.communication]
+title = "Comunique"
+text = "Troque mensagens para selecionar Viajantes para suas publicações"
+icon = "/images/Chat-192.png"
+
+[howitworks.insider.sell]
+title = "Vá!"
+text = "Tenha nosso Suporte. Use nossa plataforma para ganhar o dinheiro que você merece."
+icon = "/images/Money-192.png"

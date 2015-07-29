@@ -73,42 +73,107 @@
 		<h1>{{ .appintro2 }}</h1>
 	</section>
 	
+	<!-- #tu-howitworkssection -->
 	<section class="appsection" id="tu-howitworkssection">
 		<div class="container"> 
-		<h1>{{ .howitworks.title }}</h1>
-		<div class="row">
-			{{ $howitworks := .howitworks.explore}}
-			<div class="col-md-4 feature">
-				<div class="feature-content" >
-					<!-- icon by Icons8 -->
-					<img src="{{ $howitworks.icon }}" title="{{ $howitworks.title }}" width="192" height="192">					
-					<h2>{{ $howitworks.title }}</h2>
-					<p>{{ $howitworks.text }}</p>
-				</div>
-			</div>
-			{{ $howitworks := .howitworks.book}}
-			<div class="col-md-4 feature">
-				<div class="feature-content" >
-					<!-- icon by Icons8 -->
-					<img src="{{ $howitworks.icon }}" title="{{ $howitworks.title }}" width="192" height="192">					
-					<h2>{{ $howitworks.title }}</h2>
-					<p>{{ $howitworks.text }}</p>
-				</div>
-			</div>
-
-			{{ $howitworks := .howitworks.go}}
-			<div class="col-md-4 feature">
-				<div class="feature-content" >
-					<!-- icon by Icons8 -->
-					<img src="{{ $howitworks.icon }}" title="{{ $howitworks.title }}" width="192" height="192">					
-					<h2>{{ $howitworks.title }}</h2>
-					<p>{{ $howitworks.text }}</p>
-				</div>
-			</div>
+			<h1>{{ .howitworks.title }}</h1>
+			<p class="tu-intro">{{ .howitworks.intro }}</p>
 			
-		</div>
+			<div class="row">
+				{{ $howitworks := .howitworks.download}}
+				<div class="col-md-3 feature">
+					<div class="feature-content" >
+						<!-- icon by Icons8 -->
+						<img src="{{ $howitworks.icon }}" title="{{ $howitworks.title }}" width="128" height="128">					
+						<h2>{{ $howitworks.title }}</h2>
+						<p>{{ $howitworks.text }}</p>
+					</div>
+				</div>
+				{{ $howitworks := .howitworks.explore}}
+				<div class="col-md-3 feature">
+					<div class="feature-content" >
+						<!-- icon by Icons8 -->
+						<img src="{{ $howitworks.icon }}" title="{{ $howitworks.title }}" width="128" height="128">					
+						<h2>{{ $howitworks.title }}</h2>
+						<p>{{ $howitworks.text }}</p>
+					</div>
+				</div>
+				{{ $howitworks := .howitworks.book}}
+				<div class="col-md-3 feature">
+					<div class="feature-content" >
+						<!-- icon by Icons8 -->
+						<img src="{{ $howitworks.icon }}" title="{{ $howitworks.title }}" width="128" height="128">					
+						<h2>{{ $howitworks.title }}</h2>
+						<p>{{ $howitworks.text }}</p>
+					</div>
+				</div>
+
+				{{ $howitworks := .howitworks.go}}
+				<div class="col-md-3 feature">
+					<div class="feature-content" >
+						<!-- icon by Icons8 -->
+						<img src="{{ $howitworks.icon }}" title="{{ $howitworks.title }}" width="128" height="128">					
+						<h2>{{ $howitworks.title }}</h2>
+						<p>{{ $howitworks.text }}</p>
+					</div>
+				</div>
+				
+			</div>
 		</div>
 	</section>
+	<!--/#tu-howitworkssection -->
+	
+	
+	<!-- #tu-howitworksinsidersection -->
+	<section class="appsection" id="tu-howitworksinsidersection">
+		<div class="container"> 
+			<h1>{{ .howitworks.insider.title }}</h1>
+			<p class="tu-intro">{{ .howitworks.insider.intro }}</p>
+			
+			<div class="row">
+				{{ $howitworks := .howitworks.insider.list}}
+				<div class="col-md-3 feature">
+					<div class="feature-content" >
+						<!-- icon by Icons8 -->
+						<img src="{{ $howitworks.icon }}" title="{{ $howitworks.title }}" width="128" height="128">					
+						<h2>{{ $howitworks.title }}</h2>
+						<p>{{ $howitworks.text }}</p>
+					</div>
+				</div>
+				{{ $howitworks := .howitworks.insider.creativity}}
+				<div class="col-md-3 feature">
+					<div class="feature-content" >
+						<!-- icon by Icons8 -->
+						<img src="{{ $howitworks.icon }}" title="{{ $howitworks.title }}" width="128" height="128">					
+						<h2>{{ $howitworks.title }}</h2>
+						<p>{{ $howitworks.text }}</p>
+					</div>
+				</div>
+				{{ $howitworks := .howitworks.insider.communication}}
+				<div class="col-md-3 feature">
+					<div class="feature-content" >
+						<!-- icon by Icons8 -->
+						<img src="{{ $howitworks.icon }}" title="{{ $howitworks.title }}" width="128" height="128">					
+						<h2>{{ $howitworks.title }}</h2>
+						<p>{{ $howitworks.text }}</p>
+					</div>
+				</div>
+
+				{{ $howitworks := .howitworks.insider.sell}}
+				<div class="col-md-3 feature">
+					<div class="feature-content" >
+						<!-- icon by Icons8 -->
+						<img src="{{ $howitworks.icon }}" title="{{ $howitworks.title }}" width="128" height="128">					
+						<h2>{{ $howitworks.title }}</h2>
+						<p>{{ $howitworks.text }}</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!--/#tu-howitworksinsidersection -->
+	
 	{{ end }}
 {{ end }}
 	
