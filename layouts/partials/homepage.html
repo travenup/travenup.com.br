@@ -6,8 +6,7 @@
 <title>TravenUp</title>
 <meta name="description" content="">
 <link rel="shortcut icon" href="/images/favicon.ico" />
-{{ partial "styles.html" . }}
-<link rel="stylesheet" href="/css/tusite-homepage.css">
+{{ partial "styles-head.html" . }}
 
 </head>
 <body class="homepage">
@@ -178,6 +177,11 @@
 {{ end }}
 	
 {{ partial "footer.html" . }}
+</body>
+
+</html>
+{{ partial "styles-footer.html" . }}
+<link rel="stylesheet" href="/css/tusite-homepage.css">
 {{ partial "scripts.html" . }}
 <script type="text/javascript">
 	$(function() {
@@ -188,6 +192,3 @@
 	});
 </script>
 
-</body>
-
-</html>
