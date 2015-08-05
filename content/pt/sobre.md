@@ -7,11 +7,13 @@ language ="pt"
 
 # **TravenUp, quem somos**
 
-As experiências locais são as mais enriquecedoras e cool!
+A TravenUp conecta Viajantes a Insiders locais.
 
-Nós conectamos pessoas que tem conhecimento em executar serviços e experiências de viagem, com aqueles que estão procurando por estas experiências e serviços. Viajantes podem construir conexões reais com os insiders (fornecedores destes serviços e experiências), ganhar acesso a locais distintos e únicos e realizar uma imersão na cultura do destino da viagem.
+Insiders são pessoas locais que tem conhecimento em executar serviços, atividades e experiências de viagem. 
+Viajantes podem construir conexões reais com os Insiders locais, ganhar acesso a locais distintos e realizar uma imersão na cultura de sua viagem. 
 
-Provemos o viajante com a expertise, sabor e segredos locais e trazemos aos insiders a satisfação de compartilhar seu conhecimento e tempo, e claro, podendo ser remunerado por isso.
+Buscamos olhares, cheiros e sabores únicos. As experiências locais com Insiders são as mais enriquecedoras e "cool".
+
+Provemos ao Viajante com a expertise, e segredos locais e trazemos aos insiders a satisfação de compartilhar seu conhecimento e tempo, e claro, podendo ser remunerado por isso.
 
 Então, somos a TravenUp! Um espaço para conectar pessoas.
-
