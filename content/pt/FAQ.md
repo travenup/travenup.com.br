@@ -36,7 +36,7 @@ Para Insiders:
     - pesquisar os comentários de outros usuários;
     - buscar sua página nas redes sociais;
 
-## 3. Como contatar meu Insider local?
+## 4. Como contatar meu Insider local?
 
  - Antes da reserva confirmada: através de email.
 
