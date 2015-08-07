@@ -1,1 +1,1 @@
-{{ $.Scratch.Set "language" "en" }}{{ partial "homepage.html" . }}
+{{ $.Scratch.Set "language" .Site.LanguageCode  }}{{ partial "homepage.html" . }}
