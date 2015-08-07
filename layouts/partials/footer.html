@@ -2,10 +2,10 @@
 <footer class="footer-travenup">
 	<div class="container">
 		<div class="row">
-			{{ if eq .Params.language "pt"}}
+			{{ if or (eq .Params.language "pt") (and .IsNode (eq .Site.LanguageCode "pt")) }}
 				<div class="col-sm-3">
 					<h2>Mais</h2>
-					<a href="/">English site</a>
+					<a href="/en-us">English site</a>
 				</div>
 				<div class="col-sm-3">
 					<h2>Companhia</h2>

@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-		{{ if eq .Params.language "pt" }}
+		{{ if or (eq .Params.language "pt") (and .IsNode (eq .Site.LanguageCode "pt")) }}
 		<a class="navbar-brand" href="/pt-br">TravenUp</a>
 		{{ else }}
 		<a class="navbar-brand" href="/">TravenUp</a>
@@ -17,7 +17,7 @@
     </div>
 
 	<div class="collapse navbar-collapse" id="travenup-navbar-collapse-1">
-	{{ if eq .Params.language "pt" }}
+	{{ if or (eq .Params.language "pt") (and .IsNode (eq .Site.LanguageCode "pt")) }}
 		<a href="http://insider.travenup.com/newInsider/newExperience" class="btn btn-success navbar-btn navbar-right">CADASTRE SEU SERVIÇO</a>
 		<ul class="nav navbar-nav navbar-right">
 			<li>
