@@ -7,6 +7,7 @@ language ="pt"
 +++
 
 # Política de Privacidade
+## Esta política de privacidade entra em vigor a partir de 28/Agosto/2015
 
 A TravenUp (doravante referida como "TravenUp", "nós" ou "nosso") opera uma plataforma e um mercado da comunidade que ajuda pessoas a criar experiências e serviços de viagem diretamente com outras pessoas, onde elas podem criar, listar, descobrir e reservar serviços únicos ao redor do mundo, seja por meio de nosso site ou aplicativos de celular ("Plataforma"). TravenUp se refere a TravenUp Atividades de Internet Ltda.
 
