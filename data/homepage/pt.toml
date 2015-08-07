@@ -35,7 +35,7 @@ icon = "/images/Smartphone-192.png"
 
 [howitworks.explore]
 title = "Explore"
-text = "Encontre a perfeita experiência de viajem"
+text = "Encontre a perfeita experiência de viagem"
 icon = "/images/Search-192.png"
 
 [howitworks.book]
@@ -44,7 +44,7 @@ text = "Conecte-se com os experts locais e reserve, por meio de uma plataforma s
 icon = "/images/Card-192.png"
 
 [howitworks.go]
-title = "Vá!"
+title = "Divirta-se!"
 text = "Experiencie o melhor do lugar! Aproveite e faça novos amigos!"
 icon = "/images/Tourist-192.png"
 
@@ -69,6 +69,6 @@ text = "Troque mensagens para selecionar Viajantes para suas publicações"
 icon = "/images/Chat-192.png"
 
 [howitworks.insider.sell]
-title = "Vá!"
+title = "Comece!"
 text = "Tenha nosso Suporte. Use nossa plataforma para ganhar o dinheiro que você merece."
 icon = "/images/Money-192.png"
