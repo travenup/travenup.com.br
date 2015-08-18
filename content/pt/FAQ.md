@@ -19,18 +19,19 @@ Para Viajantes:
 - 1. Baixe nosso App
 - 2. Escolha a cidade de destino
 - 3. Busque a Experiência, Atividade ou Serviço que mais lhe interessa.
-- 4. Faça uma Reserva e comunique-se com o Insider.
-- 5. O Insider confirma a reserva e no dia da sua reserva, aproveite sua Experiência de Viagem!
+- 4. Faça login, caso primeira vez, abra o email enviado no seu próprio celular smartphone.
+- 5. Faça uma Reserva e comunique-se com o Insider.
+- 6. O Insider confirma a reserva e no dia da sua reserva, aproveite sua Experiência de Viagem!
 
 Para Insiders:
-- 1. Entre no nosso Site: www.travenup.com/pt-br/
+- 1. Entre no nosso Site: www.travenup.com.br
 - 2. Clique em "Cadastrar Serviço"
 - 3. Preencha os dados conforme solicitado.
 - 4. Clique em "Enviar" para verificação da TravenUp.
 
 ## 3. Como saber se as experiências são boas?
 
-1. Alguns insiders são convidados pela TravenUp para participar de nosso espaço. Mas existem vários Insiders que se cadastram experontantaneamente.
+1. Alguns insiders são convidados pela TravenUp para participar de nosso espaço. Mas existem vários Insiders que se cadastram espontantaneamente.
 2. A melhor maneira de saber como são as experiências e se elas lhe agradam é:
     - entrar em contato direto com o Insider;
     - pesquisar os comentários de outros usuários;
