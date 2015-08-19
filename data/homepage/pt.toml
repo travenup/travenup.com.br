@@ -1,32 +1,32 @@
 language = "pt"
 
-appintro1=  "Para reservar, faça o download do nosso aplicativo"
-appintro2= "O App TravenUp"
+appintro1=  "Para pesquisar e reservar, baixe grátis nosso App aqui"
+appintro2= "O App TravenUp conecta Viajantes a Insiders"
 
 
 [banners.first]
 index = 1
-quote = "Quer conhecer os melhores museus de São Paulo? Encontre-me na TravenUp!"
-quotefooter = "Maria, São Paulo"
+quote = "Viva uma experiência de motocross com um expert! Encontre-me no App TravenUp"
+quotefooter = "Cyro Oliveira, Bragança Paulista-SP"
 image = "/images/banner-1.jpg"
-maintext = "Experiências inesquecíveis"
-subtext = "Um mundo de oportunidades"
+maintext = "Reserve experiências únicas"
+subtext = "Oferecidas por Insiders locais"
 button = "Como Funciona"
 
 [banners.second]
 index = 2
-quote = "Interessado em uma experiência gastronômica tipicamente brasileira? Encontre-me na TravenUp!"
-quotefooter = "Loreta, São Paulo"
+quote = "Viva uma experiência de mountain bike - All Mountain - com um expert! Encontre-me no App TravenUp"
+quotefooter = "Joe Freeride, Bragança Paulista-SP"
 image = "/images/banner-2.jpg"
-maintext = "Experiências inesquecíveis"
-subtext = "Um mundo de oportunidades"
+maintext = "Reserve experiências inesquecíveis"
+subtext = "Oferecida por Insiders locais"
 button = "Como Funciona"
 
 
 [howitworks]
 
-title = "Como funciona?"
-intro = "Quer aproveitar as melhores experiências que a cidade tem a oferecer? Encontre experts que vão lhe mostrar os lugares especiais, as comidas mais saborosas e as melhores pechinchas! Se divirta do jeito que os locais fazem!"
+title = "Como funciona"
+intro = "Quer aproveitar as melhores experiências que a cidade tem a oferecer? Encontre experts que vão lhe mostrar os lugares especiais, uma história peculiar do local e experiências inesquecíveis! Divirta-se como um local!"
 
 [howitworks.download]
 title = "Download"
@@ -40,35 +40,35 @@ icon = "/images/Search-192.png"
 
 [howitworks.book]
 title = "Reserve"
-text = "Conecte-se com os experts locais e reserve, por meio de uma plataforma segura."
+text = "Conecte-se com Insiders locais e reserve sua experiência em uma plataforma segura."
 icon = "/images/Card-192.png"
 
 [howitworks.go]
 title = "Divirta-se!"
-text = "Experiencie o melhor do lugar! Aproveite e faça novos amigos!"
+text = "Viva o melhor do lugar! Aproveite e faça novos amigos!"
 icon = "/images/Tourist-192.png"
 
 [howitworks.insider]
 
 title = "Você é um insider?"
-intro = "Compartilhe seu talento, conhecimento, habilidades, uma história sobre o destino, sua criatividade, sua paixão. Insiders são empreendedores que criam Experiências, Atividades ou Serviços para oferecer aos Viajantes."
+intro = "Compartilhe o seu talento, o conhecimento, as suas habilidades, a sua criatividade e a sua paixão! Insiders são empreendedores que criam Experiências, Atividades e Serviços para oferecer aos Viajantes."
 
 [howitworks.insider.list]
 title = "Anuncie gratuitamente"
-text = "Sem taxa de serviço até a confirmação de uma reserva"
+text = "Todo anúncio é grátis. Abra um novo canal de vendas! Clique em CADASTRAR ANÚNCIO no topo da página"
 icon = "/images/Free-192.png"
 
 [howitworks.insider.creativity]
 title = "Solte sua criatividade"
-text = "Estabeleça o Preço, o que está ou não incluso, sua disponibilidade para os Viajantes"
+text = "Descreva porquê o Viajante deve escolher a sua Experiência, Atividade ou Serviço. Seja original!"
 icon = "/images/Idea-192.png"
 
 [howitworks.insider.communication]
-title = "Comunique"
-text = "Troque mensagens para selecionar Viajantes para suas publicações"
+title = "Comunique-se com Viajantes"
+text = "Troque mensagens com Viajantes sobre suas Experiências, Atividades e Serviços"
 icon = "/images/Chat-192.png"
 
 [howitworks.insider.sell]
-title = "Comece!"
-text = "Tenha nosso Suporte. Use nossa plataforma para ganhar o dinheiro que você merece."
+title = "Comece a Ganhar!"
+text = "ssa plataforma como meio de pagamento para ganhar o dinheiro que você merece"
 icon = "/images/Money-192.png"
