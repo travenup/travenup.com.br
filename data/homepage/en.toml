@@ -1,24 +1,24 @@
 language = "en"
 
-appintro1="To Book, download our free mobile app"
+appintro1="To Search & Book, download our free mobile App"
 appintro2="The TravenUp App connects Travelers to Insiders"
 
 
 [banners.first]
 index = 1
-quote = "Want to see the best museums in Sao Paulo? Look for me on TravenUp"
-quotefooter = "Maria, Sao Paulo"
+quote = "Live a motocross riding experience with an expert! Find me on TravenUp App"
+quotefooter = "Cyro Oliveira, Bragança Paulista-SP-Brazil"
 maintext = "Book unique experiences"
-subtext = "A world of opportunities."
+subtext = "Offered by local Insiders"
 button = "How It Works"
 image = "/images/banner-1.jpg"
 
 [banners.second]
 index = 2
-quote = "I can show you the best food in Sao Paulo! Find me on TravenUp!"
-quotefooter = "Loreta, São Paulo"
-maintext = "Book unique experiences"
-subtext = "A world of opportunities."
+quote = "Live an - All Mountain - mountain bike experience with an expert! Find me on TravenUp App"
+quotefooter = "Joe Freeride, Bragança Paulista-SP-Brazil"
+maintext = "Book unforgetable experiences"
+subtext = "Offered by local insiders"
 button = "How It Works"
 image = "/images/banner-2.jpg"
 
