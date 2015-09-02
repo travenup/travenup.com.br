@@ -5,6 +5,7 @@ git pull
 git merge origin/atualizacaoconteudo
 cd public
 git checkout master
+git pull
 cd ..
 hugo
 cd public
@@ -26,6 +27,7 @@ git pull
 git merge master
 cd public
 git checkout gh-pages
+git pull
 cd ..
 hugo
 cd public
