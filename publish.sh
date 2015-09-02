@@ -13,12 +13,12 @@ git add .
 git commit --message "Atualização do site"
 git push 
 cd ..
-git add .
-git commit --message "Atualização do site"
+git reset public
 git push
 
 git checkout atualizacaoconteudo
 git merge master
+git reset public
 git push
 
 
@@ -35,8 +35,7 @@ git add .
 git commit --message "Atualização do site"
 git push 
 cd ..
-git add .
-git commit --message "Atualização do site"
+git reset public
 git push 
 
 git checkout master
