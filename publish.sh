@@ -10,7 +10,7 @@ hugo
 cd public
 git add .
 git commit --message "Atualização do site"
-git push -f
+git push 
 cd ..
 git add .
 git commit --message "Atualização do site"
@@ -31,10 +31,10 @@ hugo
 cd public
 git add .
 git commit --message "Atualização do site"
-git push -f
+git push 
 cd ..
 git add .
 git commit --message "Atualização do site"
-git push -f
+git push 
 
 git checkout master
