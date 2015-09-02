@@ -31,4 +31,7 @@ git add .
 git commit --message "Atualização do site"
 git push
 
+git checkout atualizacaoconteudo
+git merge master
+git push
 
