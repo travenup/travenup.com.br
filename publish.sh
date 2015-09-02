@@ -37,4 +37,4 @@ git add .
 git commit --message "Atualização do site"
 git push -f
 
-
+git checkout master
