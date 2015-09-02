@@ -4,6 +4,7 @@ git checkout master
 git pull
 git merge origin/atualizacaoconteudo
 cd public
+git reset --hard
 git checkout master
 git pull
 cd ..
@@ -26,6 +27,7 @@ git checkout travenup.com.br
 git pull
 git merge master
 cd public
+git reset --hard
 git checkout gh-pages
 git pull
 cd ..
