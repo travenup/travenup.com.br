@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git checkout master
-git fetch
+git pull
 git merge origin/atualizacaoconteudo
 cd public
 git checkout master
@@ -10,13 +10,19 @@ hugo
 cd public
 git add .
 git commit --message "Atualização do site"
-git push
+git push 
 cd ..
 git add .
 git commit --message "Atualização do site"
 git push
 
+git checkout atualizacaoconteudo
+git merge master
+git push
+
+
 git checkout travenup.com.br
+git pull
 git merge master
 cd public
 git checkout gh-pages
@@ -25,10 +31,10 @@ hugo
 cd public
 git add .
 git commit --message "Atualização do site"
-git push
+git push 
 cd ..
 git add .
 git commit --message "Atualização do site"
-git push
+git push 
 
-
+git checkout master
