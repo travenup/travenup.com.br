@@ -2,6 +2,7 @@
 date = "2015-08-05T11:36:29-03:00"
 draft = false
 title = "FAQ"
+language ="pt"
 
 +++
 
