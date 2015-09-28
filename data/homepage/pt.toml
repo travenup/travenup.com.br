@@ -35,12 +35,12 @@ icon = "/images/Smartphone-192.png"
 
 [howitworks.explore]
 title = "Explore"
-text = "Encontre a perfeita experiência de viagem"
+text = "Encontre a experiência de viagem únicas"
 icon = "/images/Search-192.png"
 
 [howitworks.book]
 title = "Reserve"
-text = "Conecte-se com Insiders locais e reserve sua experiência em uma plataforma segura."
+text = "Encontre com Insiders locais e reserve sua experiência em uma plataforma segura."
 icon = "/images/Card-192.png"
 
 [howitworks.go]
@@ -51,21 +51,21 @@ icon = "/images/Tourist-192.png"
 [howitworks.insider]
 
 title = "Você é um insider?"
-intro = "Compartilhe o seu talento, o conhecimento, as suas habilidades, a sua criatividade e a sua paixão! Insiders são empreendedores que criam Experiências, Atividades e Serviços para oferecer aos Viajantes."
+intro = "Compartilhe seu talento, o conhecimento, as suas habilidades, sua criatividade e a sua paixão! Insiders são empreendedores que criam Experiências, Atividades e Serviços para oferecer aos Viajantes."
 
 [howitworks.insider.list]
 title = "Anuncie gratuitamente"
-text = "Todo anúncio é grátis. Abra um novo canal de vendas! Clique em CADASTRAR ANÚNCIO no topo da página"
+text = "Todo anúncio é grátis. Abra um novo canal de vendas! Clique em CADASTRE SEU ANÚNCIO"
 icon = "/images/Free-192.png"
 
 [howitworks.insider.creativity]
 title = "Solte sua criatividade"
-text = "Descreva porquê o Viajante deve escolher a sua Experiência, Atividade ou Serviço. Seja original!"
+text = "Descreva sua Experiência, Atividade ou Serviço ao Viajante. Seja original!"
 icon = "/images/Idea-192.png"
 
 [howitworks.insider.communication]
 title = "Comunique-se com Viajantes"
-text = "Troque mensagens com Viajantes sobre suas Experiências, Atividades e Serviços"
+text = "Converse com Viajantes no facebook sobre suas Experiências de Viagem, Atividades e Serviços"
 icon = "/images/Chat-192.png"
 
 [howitworks.insider.sell]
