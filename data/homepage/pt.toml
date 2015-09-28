@@ -55,7 +55,7 @@ intro = "Compartilhe seu talento, o conhecimento, as suas habilidades, sua criat
 
 [howitworks.insider.list]
 title = "Anuncie gratuitamente"
-text = "Todo anúncio é grátis. Abra um novo canal de vendas! Clique em CADASTRE SEU ANÚNCIO"
+text = "Todo anúncio é grátis. Abra um novo canal de vendas! Veja abaixo "Clique aqui e torne-se um Insider"
 icon = "/images/Free-192.png"
 
 [howitworks.insider.creativity]
@@ -65,7 +65,7 @@ icon = "/images/Idea-192.png"
 
 [howitworks.insider.communication]
 title = "Comunique-se com Viajantes"
-text = "Troque mensagens no facebook sobre seus Anúncios"
+text = "Troque mensagens no facebook sobre seus Anúncios com Viajantes"
 icon = "/images/Chat-192.png"
 
 [howitworks.insider.sell]
