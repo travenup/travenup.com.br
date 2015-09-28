@@ -17,15 +17,15 @@ image = "/images/banner-1.jpg"
 index = 2
 quote = "Live an - All Mountain - mountain bike experience with an expert! Find me on TravenUp App"
 quotefooter = "Joe Freeride, Bragança Paulista-SP-Brazil"
-maintext = "Book unforgetable experiences"
-subtext = "Offered by local insiders"
+maintext = "Book unique experiences"
+subtext = "Offered by local Insiders"
 button = "How It Works"
 image = "/images/banner-2.jpg"
 
 [howitworks]
 
 title = "How it Works?"
-intro = "Do you want to enjoy the best experiences the city has to offer? Find experts who will show you a take on a place, a particular expertise and a passion to perform experiences! Have fun like a local!"
+intro = "Do you want to enjoy the best experiences the city has to offer? Find local experts who will show you a take on a place, a particular expertise and a passion to perform experiences! Have fun like a local!"
 
 [howitworks.download]
 title = "Download"
@@ -34,40 +34,40 @@ icon = "/images/Smartphone-192.png"
 
 [howitworks.explore]
 title = "Explore"
-text = "Find the perfect travel experience, all from your phone"
+text = "Find the perfect travel experience, all from your mobile"
 icon = "/images/Search-192.png"
 
 [howitworks.book]
 title = "Book"
-text = "Connect with local Insiders. Secure platform payment"
+text = "Connect with locals & Book in a secure payment platform"
 icon = "/images/Card-192.png"
 
 [howitworks.go]
-title = "Go"
-text = "Live unique experiences! Make new Friends!"
+title = "Have fun!"
+text = "Live unique experiences & Make new friends!"
 icon = "/images/Tourist-192.png"
 
 [howitworks.insider]
 
 title = "Are you a local Insider?"
-intro = "Share your expertise, knowledge, a take on a place, a particular story to tell about the your city and your passion. Insiders are entrepreneurs who create Experiences, Activities or Services to offer to Travelers."
+intro = "Share your expertise, knowledge, a take on a place, a particular story to tell about your city or your passion. Local Insiders are entrepreneurs who create unique Experiences, Activities or Services."
 
 [howitworks.insider.list]
 title = "No fee to list"
-text = "No fee to list your Service, Activity or Experience. Open up a new sales channel!"
+text = "No fee to list. Open up a new sales channel! See below: Click here to become an Insider"
 icon = "/images/Free-192.png"
 
 [howitworks.insider.creativity]
 title = "Unleash your creativity"
-text = "Describe why your Experience, Activity or Service is worth to try"
+text = "Describe why your Experience, Activity or travel Service is worth to try"
 icon = "/images/Idea-192.png"
 
 [howitworks.insider.communication]
 title = "Communicate"
-text = "Exchange messages about your Lists"
+text = "Exchange facebook messages about your Lists"
 icon = "/images/Chat-192.png"
 
 [howitworks.insider.sell]
-title = "Earn money!"
-text = "Use TravenUp App platform to earn the money you deserve"
+title = "Make money!"
+text = "Use TravenUp payment platform to earn the money you deserve"
 icon = "/images/Money-192.png"

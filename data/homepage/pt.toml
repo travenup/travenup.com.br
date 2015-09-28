@@ -1,6 +1,6 @@
 language = "pt"
 
-appintro1=  "Para pesquisar e reservar, baixe grátis nosso App aqui"
+appintro1=  "Para pesquisar e reservar, baixe grátis nosso App"
 appintro2= "O App TravenUp conecta Viajantes a Insiders"
 
 
@@ -26,7 +26,7 @@ button = "Como Funciona"
 [howitworks]
 
 title = "Como funciona"
-intro = "Quer aproveitar as melhores experiências que a cidade tem a oferecer? Encontre experts que vão lhe mostrar os lugares especiais, uma história peculiar do local e experiências inesquecíveis! Divirta-se como um local!"
+intro = "Quer aproveitar as melhores experiências que a cidade tem a oferecer? Encontre experts que vão lhe mostrar os lugares especiais, uma história peculiar do local e experiências únicas! Divirta-se como um local!"
 
 [howitworks.download]
 title = "Download"
@@ -34,41 +34,41 @@ text = "Faça o download do aplicativo gratuitamente"
 icon = "/images/Smartphone-192.png"
 
 [howitworks.explore]
-title = "Explore"
-text = "Encontre a perfeita experiência de viagem"
+title = "Pesquise"
+text = "Explore e encontre experiências de viagem únicas"
 icon = "/images/Search-192.png"
 
 [howitworks.book]
 title = "Reserve"
-text = "Conecte-se com Insiders locais e reserve sua experiência em uma plataforma segura."
+text = "Troque mensagens no facebook com Insiders e reserve sua experiência em uma plataforma segura!"
 icon = "/images/Card-192.png"
 
 [howitworks.go]
 title = "Divirta-se!"
-text = "Viva o melhor do lugar! Aproveite e faça novos amigos!"
+text = "Viva experiências únicas! Aproveite e faça novos amigos!"
 icon = "/images/Tourist-192.png"
 
 [howitworks.insider]
 
 title = "Você é um insider?"
-intro = "Compartilhe o seu talento, o conhecimento, as suas habilidades, a sua criatividade e a sua paixão! Insiders são empreendedores que criam Experiências, Atividades e Serviços para oferecer aos Viajantes."
+intro = "Compartilhe seu talento, o conhecimento, as suas habilidades, sua criatividade e a sua paixão! Insiders são empreendedores que criam Experiências, Atividades e Serviços para oferecer aos Viajantes."
 
 [howitworks.insider.list]
 title = "Anuncie gratuitamente"
-text = "Todo anúncio é grátis. Abra um novo canal de vendas! Clique em CADASTRAR ANÚNCIO no topo da página"
+text = "Todo anúncio é grátis. Abra um novo canal de vendas! Veja abaixo: Clique aqui e torne-se um Insider"
 icon = "/images/Free-192.png"
 
 [howitworks.insider.creativity]
 title = "Solte sua criatividade"
-text = "Descreva porquê o Viajante deve escolher a sua Experiência, Atividade ou Serviço. Seja original!"
+text = "Detalhe sua Experiência, Atividade ou Serviço ao Viajante. Seja original!"
 icon = "/images/Idea-192.png"
 
 [howitworks.insider.communication]
 title = "Comunique-se com Viajantes"
-text = "Troque mensagens com Viajantes sobre suas Experiências, Atividades e Serviços"
+text = "Troque mensagens no facebook sobre seus Anúncios com Viajantes"
 icon = "/images/Chat-192.png"
 
 [howitworks.insider.sell]
 title = "Comece a Ganhar!"
-text = "ssa plataforma como meio de pagamento para ganhar o dinheiro que você merece"
+text = "Use nossa plataforma como meio de pagamento para ganhar o dinheiro que você merece"
 icon = "/images/Money-192.png"
