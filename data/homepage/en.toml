@@ -18,14 +18,14 @@ index = 2
 quote = "Live an - All Mountain - mountain bike experience with an expert! Find me on TravenUp App"
 quotefooter = "Joe Freeride, Bragança Paulista-SP-Brazil"
 maintext = "Book unique experiences"
-subtext = "Offered by local insiders"
+subtext = "Offered by local Insiders"
 button = "How It Works"
 image = "/images/banner-2.jpg"
 
 [howitworks]
 
 title = "How it Works?"
-intro = "Do you want to enjoy the best experiences the city has to offer? Find experts who will show you a take on a place, a particular expertise and a passion to perform experiences! Have fun like a local!"
+intro = "Do you want to enjoy the best experiences the city has to offer? Find local experts who will show you a take on a place, a particular expertise and a passion to perform experiences! Have fun like a local!"
 
 [howitworks.download]
 title = "Download"
@@ -44,7 +44,7 @@ icon = "/images/Card-192.png"
 
 [howitworks.go]
 title = "Have fun!"
-text = "Live unique experiences & Make new Friends!"
+text = "Live unique experiences & Make new friends!"
 icon = "/images/Tourist-192.png"
 
 [howitworks.insider]
@@ -59,7 +59,7 @@ icon = "/images/Free-192.png"
 
 [howitworks.insider.creativity]
 title = "Unleash your creativity"
-text = "Describe why your Experience, Activity or Service is worth to try"
+text = "Describe why your Experience, Activity or travel Service is worth to try"
 icon = "/images/Idea-192.png"
 
 [howitworks.insider.communication]
