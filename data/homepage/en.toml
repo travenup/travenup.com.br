@@ -34,27 +34,27 @@ icon = "/images/Smartphone-192.png"
 
 [howitworks.explore]
 title = "Explore"
-text = "Find the perfect travel experience, all from your phone"
+text = "Find the perfect travel experience, all from your mobile"
 icon = "/images/Search-192.png"
 
 [howitworks.book]
 title = "Book"
-text = "Connect with local Insiders. Secure platform payment"
+text = "Connect with locals & Book in a secure payment platform"
 icon = "/images/Card-192.png"
 
 [howitworks.go]
-title = "Go"
-text = "Live unique experiences! Make new Friends!"
+title = "Have fun!"
+text = "Live unique experiences & Make new Friends!"
 icon = "/images/Tourist-192.png"
 
 [howitworks.insider]
 
 title = "Are you a local Insider?"
-intro = "Share your expertise, knowledge, a take on a place, a particular story to tell about the your city and your passion. Insiders are entrepreneurs who create Experiences, Activities or Services to offer to Travelers."
+intro = "Share your expertise, knowledge, a take on a place, a particular story to tell about your city or your passion. Local Insiders are entrepreneurs who create unique Experiences, Activities or Services."
 
 [howitworks.insider.list]
 title = "No fee to list"
-text = "No fee to list your Service, Activity or Experience. Open up a new sales channel!"
+text = "No fee to list your unique Experience, Activity or travel Service. Open up a new sales channel!"
 icon = "/images/Free-192.png"
 
 [howitworks.insider.creativity]
@@ -64,10 +64,10 @@ icon = "/images/Idea-192.png"
 
 [howitworks.insider.communication]
 title = "Communicate"
-text = "Exchange messages about your Lists"
+text = "Exchange facebook messages about your Lists"
 icon = "/images/Chat-192.png"
 
 [howitworks.insider.sell]
-title = "Earn money!"
-text = "Use TravenUp App platform to earn the money you deserve"
+title = "Make money!"
+text = "Use TravenUp payment platform to earn the money you deserve"
 icon = "/images/Money-192.png"
