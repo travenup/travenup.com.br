@@ -1,6 +1,6 @@
 language = "pt"
 
-appintro1=  "Para pesquisar e reservar, baixe grátis nosso App aqui"
+appintro1=  "Para pesquisar e reservar, baixe grátis nosso App"
 appintro2= "O App TravenUp conecta Viajantes a Insiders"
 
 
@@ -26,7 +26,7 @@ button = "Como Funciona"
 [howitworks]
 
 title = "Como funciona"
-intro = "Quer aproveitar as melhores experiências que a cidade tem a oferecer? Encontre experts que vão lhe mostrar os lugares especiais, uma história peculiar do local e experiências inesquecíveis! Divirta-se como um local!"
+intro = "Quer aproveitar as melhores experiências que a cidade tem a oferecer? Encontre experts que vão lhe mostrar os lugares especiais, uma história peculiar do local e experiências únicas! Divirta-se como um local!"
 
 [howitworks.download]
 title = "Download"
@@ -34,13 +34,13 @@ text = "Faça o download do aplicativo gratuitamente"
 icon = "/images/Smartphone-192.png"
 
 [howitworks.explore]
-title = "Explore"
-text = "Encontre a experiência de viagem únicas"
+title = "Pesquise"
+text = "Explore e encontre experiências de viagem únicas"
 icon = "/images/Search-192.png"
 
 [howitworks.book]
 title = "Reserve"
-text = "Encontre com Insiders locais e reserve sua experiência em uma plataforma segura."
+text = "Troque mensagens no facebook com Insiders e reserve sua experiência em uma plataforma segura!"
 icon = "/images/Card-192.png"
 
 [howitworks.go]
